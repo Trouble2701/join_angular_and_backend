@@ -1,0 +1,28 @@
+.sitebar{
+    width: 235px;
+    height: 100dvh;
+    background-color: #2A3647;
+    box-shadow: 4px 0px 4px 0px rgb(0 0 0 / 29%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    .link{
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 125ms ease-in-out;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 20px;
+
+        &:hover{
+            background-color: #2A3D59;
+            box-shadow: inset 3px 3px 4px 0px rgba(0, 0, 0, 0.29);
+        }
+    }
+}
